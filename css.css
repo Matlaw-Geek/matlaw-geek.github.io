@@ -1,0 +1,42 @@
+html
+{
+	overflow-y: scroll;
+}
+
+body
+{
+	font-family: segoe ui, helvetica, arial, sans-serif;
+	max-width: 800px;
+	margin: auto;
+	padding-left: 3%;
+	padding-right: 3%;
+	font-size: 14px;
+	line-height: 1.4;	
+	background-color: #102E47;
+	color: white;
+}
+
+img
+{
+	padding: 15px;
+}
+
+a:link
+{
+	color: LightBlue;
+}
+
+a:visited
+{
+	color: LightBlue;
+}
+
+a:hover
+{
+	color: SteelBlue;
+}
+
+a:active
+{
+	color: MidnightBlue;
+}

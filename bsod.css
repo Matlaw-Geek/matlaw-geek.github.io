@@ -1,0 +1,28 @@
+body
+{
+	font-family: consolas, courier;
+	font-size: 14px;
+	color: white;
+	margin: auto;
+	line-height: 1.0;
+	background-color: #000082
+}
+a:link
+{
+	color: white;
+}
+
+a:visited
+{
+	color: white;
+}
+
+a:hover
+{
+	color: red;
+}
+
+a:active
+{
+	color: white;
+}
