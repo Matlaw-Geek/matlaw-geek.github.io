@@ -15,31 +15,6 @@ body
 	background-color: #102E47;
 	color: white;
 }
-div.galeria
-{
-	margin: 5px;
-	border: 1px solid #ccc;
-	float: left;
-	width: 180px;
-	background-color: white;
-	color: black;
-}
-	div.galeria:hover
-{
-	border: 1px solid #777;
-}
-
-	div.galeria img
-{
-	width: 100%;
-	height: auto;
-}
-
-	div.desc
-{
-	padding: 10px;
-	text-align: center;
-}
 
 div.img
 {
@@ -64,4 +39,30 @@ a:hover
 a:active
 {
 	color: MidnightBlue;
+}
+
+div.galeria
+{
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 180px;
+	background-color: white;
+	color: black;
+}
+	div.galeria:hover
+{
+	border: 1px solid #777;
+}
+
+	div.galeria img
+{
+	width: 100%;
+	height: auto;
+}
+
+	div.desc
+{
+	padding: 10px;
+	text-align: center;
 }
