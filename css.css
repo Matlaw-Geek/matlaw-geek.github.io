@@ -66,3 +66,32 @@ div.galeria
 	padding: 10px;
 	text-align: center;
 }
+
+div.tabela
+{
+	display: table;
+	width: auto;
+	border-spacing: 5px;
+}
+
+	div.tw
+{
+	display: table-row;
+	width: auto;
+	clear: both;
+}
+
+	div.tk1
+{
+	display: table-cell;
+	font-weight: bold;
+	text-align: right;
+	vertical-align: center;
+}
+
+	div.tk2
+{
+	display: table-cell;
+	text-align: left;
+	vertical-align: center;
+}
