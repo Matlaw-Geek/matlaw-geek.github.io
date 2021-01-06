@@ -1,0 +1,35 @@
+body
+{
+	font-family: segoe ui, helvetica, arial, sans-serif;
+	max-width: 600px;
+	margin-top: auto;
+	margin-left: 20%;
+	margin-right: 30%;
+	background-color: #0079D8;
+	color: white;
+}
+
+div.img
+{
+	padding: 15px;
+}
+
+a:link
+{
+	color: LightBlue;
+}
+
+a:visited
+{
+	color: LightBlue;
+}
+
+a:hover
+{
+	color: Turquoise;
+}
+
+a:active
+{
+	color: MidnightBlue;
+}
