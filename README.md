@@ -2,8 +2,8 @@
 My simple website, used as a form of a "digital museum", but a bit biased.
 # URL
 https://matlaw-geek.github.io/en/index.htm
-
-Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
+# License
+[![CC BY 4.0][cc-by-shield]][cc-by]
 
 This work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
