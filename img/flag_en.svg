@@ -2,13 +2,13 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 1280 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
     <g>
-        <g transform="matrix(1.23077,0,0,1.23077,0,0)">
+        <g transform="matrix(1.03644,0,0,1.23077,0,0)">
             <rect x="0" y="0" width="1235" height="650" style="fill:rgb(178,34,52);"/>
         </g>
-        <g transform="matrix(1.23077,0,0,1.23077,0,0)">
+        <g transform="matrix(1.03644,0,0,1.23077,0,0)">
             <path d="M0,75L1235,75M1235,175L0,175M0,275L1235,275M1235,375L0,375M0,475L1235,475M1235,575L0,575" style="fill-rule:nonzero;stroke:white;stroke-width:50px;"/>
         </g>
-        <g transform="matrix(1.23077,0,0,1.23077,0,0)">
+        <g transform="matrix(1.23077,0,0,1.23648,0,0)">
             <rect x="0" y="0" width="494" height="350" style="fill:rgb(60,59,110);"/>
         </g>
         <g transform="matrix(1.23077,0,0,1.23077,0,0)">
