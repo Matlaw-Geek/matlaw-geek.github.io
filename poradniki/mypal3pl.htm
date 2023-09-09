@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="description" content="Artykuł o ustawianiu przeglądarki internetowej Mypal">
+	<meta name="keywords" content="Matlaw, Geek, klamoty, stary, komputer, retro, Windows XP, Mypal, poradnik">
+	<meta name="author" content="Matlaw the Geek">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="stylesheet" href="../main.css" type="text/css" media="screen">
+	<title>Mypal 29 - spolszczenie i stylizacja na Firefox 3 - Klamoty Matlawa</title>
+</head>
+
+<body>
+	<div class="header">
+		<div class="logo">
+			<a href="../index.htm"><img src="../img/logo_pl.svg" onerror="this.src='../img/logo_pl_alt.png'" alt="Klamoty Matlawa"></a>
+		</div>
+		<hr class="nbhrup">
+			<a href="../index.htm">Strona&nbsp;główna</a> |
+			<a href="../pclap.htm">Komputery&nbsp;i&nbsp;laptopy</a> |
+			<a href="../telkom.htm">Telefony&nbsp;komórkowe</a> |
+			<a href="../inneurz.htm">Inne&nbsp;urządzenia</a> |
+			<a href="../dziennik.htm">Dziennik&nbsp;zdarzeń</a> |
+			<a>Poradniki</a> |
+			<a href="../linki.htm">Linki</a> |
+			<a href="../omnie.htm">O&nbsp;mnie</a>
+		<hr class="nbhrdn">
+	</div>
+
+	<div>
+		<p class="goback"><a href="../poradniki.htm">&lt; Wróć do listy poradników</a></p>
+		<h1 class="arthdr">Mypal 29 - spolszczenie i stylizacja na Firefox 3</h1>
+		<p>
+			Popularną przeglądarką na <b>Windows XP</b> stał się <a href=https://www.mypal-browser.org/download.html><b>Mypal 29</b></a>, będący przystosowanym dla tej dość wiekowej wersji Windowsa forkiem Pale Moona. Działa sprawnie, ale domyślnie wygląda… jak wygląda.<br>
+			Co jeśli jednak zechcemy przypomnieć sobie czasy <b>Firefoksa 3</b>? Ten poradnik w tym pomoże.
+		</p>
+		<p>
+			Zacznę od zainstalowania <b>polskiego języka dla Mypala</b>.<br>
+			Ze <a href=https://www.mypal-browser.org/release/langpack/29.3.0> strony Mypala</a> lub <a href="https://mega.nz/folder/4VwHHYbJ#7mu2bn4TYLJVpUDYWsFXaw">mojego zbioru</a> należy ściągnąć język. Jest to plik <b>mypal-lang-pl-29.3.0.xpi</b><br>
+			Po pobraniu pliku .xpi, wystarczy go przeciągnąć do okna przeglądarki i potwierdzić instalację.<br>
+			Po zainstalowaniu (może być wymagane ponowne uruchomienie) trzeba wejść w <b>about:config</b> (należy wpisać <i>about:config</i> w pasku adresowym).<br>
+			Należy tam dotrzeć do opcji <b>general.useragent.locale</b> (można ją znaleźć przez wyszukiwarkę na górze strony) i zmienić wartość w polu z <b>en_us</b> na <b>pl</b><br>
+			Potem wystarczy ponowne uruchomienie i mamy Mypala po polsku.
+			<!--<b>UWAGA! Ten plik języka zmienia się co którąś wersję i po aktualizacji możliwe jest utracenie języka polskiego. Wystarczy ściągnąć aktualny plik języka, nie trzeba ponownie zmieniać opcji w about:config</b><br>-->
+		</p>
+		<p>
+			Pora zająć się wyglądem.
+		</p>
+		<p>
+			<b>Część 1.</b><br>
+			Zamiana ikony
+			<!--<b>UWAGA! Ten proces trzeba powtórzyć po każdej aktualizacji przeglądarki, gdyż plik exe jest nadpisywany nową wersją.</b><br>-->
+		</p>
+			<div class="gallbar-inline">
+				<div class="gallery">
+					<a target="_blank" href="../img/poradniki/Okno_RH.png">
+						<img src="../img/poradniki/Okno_RH.png" alt="Resource Hacker">
+					</a>
+					<div class="desc">Okno Resource Hacker</div>
+				</div>
+			</div>
+		<p>
+			Tutaj przyda się przygotowane przeze mnie <a href=https://mega.nz/folder/cUBxGCoa#K-xQHyegdwRgOu9HW9qung/folder/NEQDDYgR>archiwum z oryginalnymi ikonami Firefoksa wersji 3.0 i 3.5</a> - do wyboru.<br>
+			Używając programu <a href="http://www.angusj.com/resourcehacker/#download">Resource Hacker</a> (polecam wersję zip bez instalatora) należy otworzyć plik wykonywalny programu <b>mypal.exe</b> z folderu instalacyjnego (domyślnie <b>C:\Program Files\Mypal</b>).<br>
+			Po otwarciu należy otworzyć drzewko <b>„Icon group”</b>.<br>
+			Pozycje <b>1 : 1033</b> i <b>32512 : 1033</b> należy zastąpić ikoną wybranej wersji – plik <b>0.ico</b>.<br>
+			By to zrobić, należy kliknąć na pozycję (pojawią się ikony po prawej stronie okna) i skrótem klawiszowym Ctrl+R lub klikając na niej prawym przyciskiem wybrać opcję <b>„Replace Icon …”</b>, wybrać wspomniany plik <b>0.ico</b> i potwierdzić przyciskiem <b>„Replace”</b>.<br>
+			Następnie pozycję <b>2 : 1033</b> (ikona dokumentu) należy zastąpić w taki sam sposób plikiem <b>IconGroup1.ico</b><br>
+			Po wszystkim zapisać zmiany.
+		</p>
+		<p>
+			<b>UWAGA! Jeśli ikony się nie zmieniły, należy zmienić przeglądarkę domyślną na Internet Explorer i ponownie na Mypala. Windows powinien (prędzej lub później) wczytać nowe ikony.</b><br>
+		</p>
+		<p>
+			<b>Część 2.</b><br>
+			Mniej techniczna część przebierania.<br>
+			Wszystkie dodatki i motywy, które wymienię, są dostępne do pobrania ze stron twórców dodatków lub <a href=https://mega.nz/folder/xUxTnAyY#kYbYTwH_VqZXtXw8k4FjNw>mojego zbioru dodatków</a>.
+			<!--W przeciwieństwie do podmiany ikony, dodatki i motyw zostają niezmienione po aktualizacji, choć może się zdarzyć, że coś zostanie wyłączone.-->
+		</p>
+		<div class="gallbar-inline">
+			<div class="gallery">
+				<a target="_blank" href="../img/poradniki/Dodatki.png">
+					<img src="../img/poradniki/Dodatki.png" alt="Dodatki">
+				</a>
+				<div class="desc">Lista dodatków</div>
+			</div>
+		</div>
+		<p>
+			<!--Strona dodatków Pale Moon (zakładka <b>„Extensions”</b>) jest podzielona na kategorie, ale wszystko można znaleźć <b>przez wyszukiwarkę po prawej stronie</b>.<br>-->
+			Chciałem podzielić się stroną dodatków twórców pierwowzoru Mypala, by wygodnie zainstalować dodatki, jednakże autorzy Pale Moona lubią utrudniać wszystkim życie i nie jest już to możliwe.<br>
+			Tak czy owak, należy zainstalować następujące rozszerzenia:
+		</p>
+			<ul>
+				<li><b>Active Stop Button</b> (przywraca osobny przycisk stop)</li>
+				<li><b>Downloads: Show in Window, Tab or Sidebar</b> (przywraca okno pobierania ze starych wersji Firefoksa)</li>
+				<li><b>Palesomething</b> (do zmiany nazwy przeglądarki)</li>
+			</ul>
+		<p>
+			Dodatki instaluje się dokładnie tak samo jak język - plik .xpi trzeba przeciągnąć do okna przeglądarki i potwierdzić instalację.<br>
+			Zainstalowanymi dodatkami można zarządzać na ich stronie (<b>about:addons</b>), do której dotrzeć można przez menu <u>N</u>arzędzia -> <u>D</u>odatki.
+		</p>
+		<div class="gallbar-inline">
+			<div class="gallery">
+				<a target="_blank" href="../img/poradniki/Palesth_opcje.png">
+					<img src="../img/poradniki/Palesth_opcje.png" alt="Palesomething">
+				</a>
+				<div class="desc">Opcje Palesomething</div>
+			</div>
+		</div>
+		<p>
+			<b>O ile dwa pierwsze dodatki nie wymagają żadnych zmian, tak w opcjach „Palesomething” należy zaznaczyć opcję „Use the same generated name(…)” i pokasować trochę pozycji w kolumnach na górze okna.<br>
+			W pierwszej kolumnie należy zostawić tylko „Mozilla”, w drugiej „Fire”, a w trzeciej „fox”.<br>
+			Przy następnym uruchomieniu przeglądarki powinno nas przywitać okno z nazwą „- Mozilla Firefox”</b>
+		</p>
+		<p>
+			<b>By zmienić nazwę domyślnej przeglądarki w menu Start, należy wgrać do rejestru nowe wartości <a href=https://mega.nz/folder/cUBxGCoa#K-xQHyegdwRgOu9HW9qung>plikiem mypaltoff.reg</a></b>. Po przelogowaniu lub ponownym uruchomieniu komputera Windows wczyta nową nazwę.
+		</p>
+		<p>
+			<b>Część 3.</b><br>
+			Wisienka na torcie.<br>
+			Ponownie chciałem podzielić się stroną motywów Pale Moona, ale trzeba się posiłkować alternatywą. Niezależnie od sposobu, należy zainstalować motyw <b>„Moonfox3”</b>. Ten jest również dostępny w <a href=https://mega.nz/folder/xUxTnAyY#kYbYTwH_VqZXtXw8k4FjNw>moim zbiorze dodatków</a>.<br>
+			Informacja: jeśli wybrałeś ikonę z folderu <b>3.0</b> możesz wybrać motyw <b>„Fox 2 The Moon”</b>, by imitować wygląd <b>Firefoksa 2</b>. Ten jednak należy poszukać samemu w Internecie. Ważne jest, by był dla wersji 29.x<br>
+			<i>Choć ten motyw, moim zdaniem, nie jest równie wierny, co Moonfox3.</i>
+		</p>
+		<div class="gallbar-inline">
+			<div class="gallery">
+				<a target="_blank" href="../img/poradniki/Mypal3.png">
+					<img src="../img/poradniki/Mypal3.png" alt="Mypal">
+				</a>
+				<div class="desc">Mypal po przebraniu</div>
+			</div>
+		</div>
+		<p>
+			<b>Gratulacje!</b><br>
+			Po tych zabiegach twój Mypal wygląda jak rasowy Firefox sprzed lat.<br>
+			Można się nacieszyć nostalgią i trollować ludzi, że twój Firefox z 2009 roku na Windowsie XP obsługuje współczesne strony i <b>uBlocka Origin</b>.
+		</p>
+		<p>
+			<b>Bonus - Mypal na procesory bez wsparcia SSE2 (np. Pentium III)</b><br>
+			Mypal wymaga instrukcji SSE2 do działania, a ta jest dostępna dopiero w procesorach Pentium 4 i Pentium M oraz konkurujących im procesorach od AMD.<br>
+			W takiej sytuacji należy pobrać <a href=https://mega.nz/folder/gFhBVADB#qKxTHt-0Oxic_pXgI3mLtw>NewMoon 27</a> zamiast Mypala.<br>
+			Niestety, ta przeglądarka nie posiada instalatora, więc pobrane archiwum .zip należy rozpakować, a folder z plikami umieścić w <b>C:\Program Files\</b> i utworzyć ręcznie skrót do programu na pulpicie.<br>
+			Co do ustawiania i używania tej wersji, nie ma większych różnić względem Mypala 29, choć należy zainstalować <a href=https://mega.nz/folder/pZxhVQbY#e3-zAhWj02BSsaC6y9XM3w>język i dodatki współpracujące z wersją 27</a>.
+		</p>
+	</div>
+	
+	<div class="footer">
+		<p>
+			<a href="#">^ Wróć na górę strony ^</a>
+		</p>
+		<hr>
+		<p>
+			Gra i trąbi zespół Kombi
+		</p>
+		<p>
+			&copy; 2020-2023 Matlaw the Geek<br>
+			Jakiekolwiek prawa ostrzyżone
+		</p>
+	</div>
+</body>
+</html>

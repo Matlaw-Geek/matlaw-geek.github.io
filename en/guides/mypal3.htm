@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="description" content="An article about setting up a Mypal web browser">
+	<meta name="keywords" content="Matlaw, Geek, thingies, old, computer, retro, Windows XP, Mypal, guide">
+	<meta name="author" content="Matlaw the Geek">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="../../favicon.ico">
+	<link rel="stylesheet" href="../../main.css" type="text/css" media="screen">
+	<title>Mypal 29 - making it look like Firefox 3 - Matlaw's Thingies</title>
+</head>
+
+<body>
+	<div class="header">
+		<div class="logo">
+			<a href="../index.htm"><img src="../../img/logo_en.svg" onerror="this.src='../../img/logo_en_alt.png'" alt="Matlaw's Thingies"></a>
+		</div>
+		<hr class="nbhrup">
+			<a href="../index.htm">Home&nbsp;page</a> |
+			<a href="../pclap.htm">Computers&nbsp;and&nbsp;laptops</a> |
+			<a href="../phones.htm">Mobile&nbsp;phones</a> |
+			<a href="../othdevices.htm">Other&nbsp;devices</a> |
+			<a href="../eventview.htm">Event&nbsp;viewer</a> |
+			<a>Guides</a> |
+			<a href="../links.htm">Links</a> |
+			<a href="../about.htm">About</a>
+		<hr class="nbhrdn">
+	</div>
+
+	<div>
+		<p class="goback"><a href="../guides.htm">&lt; Go back to the guides list</a></p>
+		<h1 class="arthdr">Mypal 29 - making it look like Firefox 3</h1>
+		<p>
+			A popular browser for <b>Windows XP</b> has become <a href=https://www.mypal-browser.org/download.html><b>Mypal 29</b></a>, which is a fork of Pale Moon adapted for this rather ancient version of Windows. It works well, but by default it looks... what it looks like.<br>
+			But what if we want to relive the days of <b>Firefox 3</b>? This guide will help you do that.
+		</p>
+		<p>
+			<b>Part 1.</b><br>
+			Replacing the icon<br>
+			<!--<b>NOTE: This process must be repeated after each browser update as the exe file is overwritten with a new version.</b><br>-->
+		</p>
+		<div class="gallbar-inline">
+			<div class="gallery">
+				<a target="_blank" href="../../img/poradniki/Okno_RH.png">
+					<img src="../../img/poradniki/Okno_RH.png" alt="Resource Hacker">
+				</a>
+				<div class="desc">Resource Hacker window</div>
+			</div>
+		</div>
+		<p>
+			This is where my prepared <a href=https://mega.nz/folder/cUBxGCoa#K-xQHyegdwRgOu9HW9qung/folder/NEQDDYgR>archive with original Firefox 3.0 and 3.5 icons</a> will come in handy.<br>
+			Using <a href="http://www.angusj.com/resourcehacker/#download">Resource Hacker</a> (I recommend the zip version without the installer), open the <b>mypal.exe</b> executable from the installation folder (by default <b>C:\Program Files\Mypal</b>).<br>
+			Once opened, extend the <b>"Icon group"</b> tree.<br>
+			Items <b>1 : 1033</b> and <b>32512 : 1033</b> should be replaced with the icon of the selected version - <b>0.ico</b> file.<br>
+			To do this, click on the item (icons will appear on the right side of the window) and use the keyboard shortcut Ctrl+R or right click on it to select <b>"Replace Icon ..."</b>, select the <b>0.ico</b> file mentioned above and confirm with <b>"Replace"</b> button.<br>
+			Then replace item <b>2 : 1033</b> (document icon) with <b>IconGroup1.ico</b> file in the same way<br>
+			After everything is done, save the changes.
+		</p>
+		<p>
+			<b>NOTE: If the icons have not changed, change your default browser to Internet Explorer and back to Mypal. Windows should (sooner or later) load the new icons.</b>
+		</p>
+		<p>
+			<b>Part 2.</b><br>
+			The less technical part of theming.<br>
+			All the add-ons and themes I mention are available for download from the add-on developers' websites or <a href=https://mega.nz/folder/xUxTnAyY#kYbYTwH_VqZXtXw8k4FjNw>my collection of add-ons</a>.
+		</p>
+		<div class="gallbar-inline">
+			<div class="gallery">
+				<a target="_blank" href="../../img/poradniki/Dodatki.png">
+					<img src="../../img/poradniki/Dodatki.png" alt="Add-ons">
+				</a>
+				<div class="desc">Add-ons list</div>
+			</div>
+		</div>
+		<p>
+			<!--The Pale Moon add-ons page (<b>"Extensions"</b> tab) is categorized, but you can find everything <b>through the search engine on the right</b>.<br>-->
+			I wanted to share the Pale Moon add-ons page to install the add-ons conveniently, however, the Pale Moon creators like to make life difficult for everyone and this is no longer possible.<br>
+			Anyway, the following extensions must be installed:
+		</p>
+		<ul>
+			<li><b>Active Stop Button</b> (restores separate stop button)</li>
+			<li><b>Downloads: Show in Window, Tab or Sidebar</b> (restores the download window from old Firefox versions)</li>
+			<li><b>Palesomething</b> (to rename the browser)</li>
+		</ul>
+		<p>
+			To install add-ons, drag the .xpi file into the browser window and confirm the installation.<br>
+			Installed addons can be managed on their page (<b>about:addons</b>), which can be reached via the menu <u>T</u>ools -> <u>A</u>dd-ons.
+		</p>
+		<div class="gallbar-inline">
+			<div class="gallery">
+				<a target="_blank" href="../../img/poradniki/Palesth_opcje.png">
+					<img src="../../img/poradniki/Palesth_opcje.png" alt="Palesomething">
+				</a>
+				<div class="desc">Palesomething options</div>
+			</div>
+		</div>
+		<p>
+			<b>While the first two add-ons don't require any changes, in the "Palesomething" options you need to check "Use the same generated name(...)" and delete some items in the columns at the top of the window.<br>
+			Leave only "Mozilla" in the first column, "Fire" in the second, and "fox" in the third.<br>
+			The next time you launch the browser you should be greeted by a window with the name "- Mozilla Firefox"</b>
+		</p>
+		<p>
+			<b>To change the name of the default browser in the Start menu, you need to load new values into the registry with the <a href=https://mega.nz/folder/cUBxGCoa#K-xQHyegdwRgOu9HW9qung>mypaltoff.reg file</a></b>. When you log off or restart your computer, Windows will load the new name.
+		</p>
+		<p>
+			<b>Part 3.</b><br>
+			The icing on the cake<br>
+			Once again, I wanted to share the Pale Moon themes page, but you have to resort to alternatives.
+			Regardless of the method, you need to install the <b>"Moonfox3"</b> theme. This one is also available <a href=https://mega.nz/folder/xUxTnAyY#kYbYTwH_VqZXtXw8k4FjNw>in my collection of add-ons</a>.<br>
+			Notice: if you chose the icon from the <b>3.0</b> folder, you can choose the <b>"Fox 2 The Moon"</b> theme to mimic the look of <b>Firefox 2</b>. However, you have to look for this one yourself on the Internet. It is important that it is for version 29.x<br>
+			<i>Although this theme, in my opinion, is not as faithful as Moonfox3.</i>
+		</p>
+		<div class="gallbar-inline">
+			<div class="gallery">
+				<a target="_blank" href="../../img/poradniki/Mypal3.png">
+					<img src="../../img/poradniki/Mypal3.png" alt="Mypal">
+				</a>
+				<div class="desc">Mypal after theming</div>
+			</div>
+		</div>
+		<p>
+			<b>Congratulations!</b><br>
+			After these treatments, your Mypal looks like a real Firefox from back in the day.<br>
+			You can enjoy the nostalgia and troll people that your 2009 Firefox on Windows XP supports modern sites and <b>uBlock Origin</b>.
+		</p>
+		<p>
+			<b>Bonus - Mypal for processors without SSE2 support (e.g. Pentium III)</b><br>
+			Mypal requires the SSE2 instruction to function, and that instruction is not available until the Pentium 4 and Pentium M processors and their rival processors from AMD.<br>
+			In this case, download <a href=https://mega.nz/folder/gFhBVADB#qKxTHt-0Oxic_pXgI3mLtw>NewMoon 27</a> instead of Mypal.<br>
+			Unfortunately, this browser does not have an installer, so you need to unpack the downloaded .zip archive, place the folder with the files in <b>C:\Program Files\</b> and manually create a shortcut to the program on the desktop.<br>
+			As for setting up and using this version, there are no major differences from Mypal 29, although you should install <a href=https://mega.nz/folder/pZxhVQbY#e3-zAhWj02BSsaC6y9XM3w>add-ons compatible with version 27</a>.
+		</p>
+	</div>
+	
+	<div class="footer">
+		<p>
+			<a href="#">^ Go back to the top ^</a>
+		</p>
+		<hr>
+		<p>
+			Out of the blue, here comes Yazoo
+		</p>
+		<p>
+			&copy; 2020-2023 Matlaw the Geek<br>
+			Any rights deserved
+		</p>
+	</div>
+</body>
+</html>

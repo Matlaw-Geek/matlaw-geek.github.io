@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-7,0)">
+        <g transform="matrix(0.909091,0,0,1,0.636364,0)">
+            <path d="M11,36C11,36 7,36 7,32L7,4C7,4 7,0 11,0L25,0C25,0 29,0 29,4L29,32C29,32 29,36 25,36L11,36Z" style="fill:rgb(204,214,221);fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(0.777778,0,0,0.423077,3,2.88462)">
+            <rect x="9" y="5" width="18" height="26" style="fill:rgb(85,172,238);"/>
+        </g>
+    </g>
+    <g transform="matrix(1.375,0,0,1.375,-0.875,-26)">
+        <g transform="matrix(1.09091,0,0,2.18182,-6.90909,-9.45455)">
+            <rect x="9" y="19" width="2" height="1" style="fill:white;"/>
+        </g>
+        <g transform="matrix(1.09091,0,0,2.18182,-2.54545,-9.45455)">
+            <rect x="9" y="19" width="2" height="1" style="fill:white;"/>
+        </g>
+        <g transform="matrix(1.09091,0,0,2.18182,-2.54545,-5.81818)">
+            <rect x="9" y="19" width="2" height="1" style="fill:white;"/>
+        </g>
+        <g transform="matrix(1.09091,0,0,2.18182,-6.90909,-5.81818)">
+            <rect x="9" y="19" width="2" height="1" style="fill:white;"/>
+        </g>
+        <g transform="matrix(1.09091,0,0,2.18182,-6.90909,-2.18182)">
+            <rect x="9" y="19" width="2" height="1" style="fill:white;"/>
+        </g>
+        <g transform="matrix(1.09091,0,0,2.18182,-2.54545,-2.18182)">
+            <rect x="9" y="19" width="2" height="1" style="fill:white;"/>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,7,0)">
+        <path d="M11,36C11,36 7,36 7,32L7,4C7,4 7,0 11,0L25,0C25,0 29,0 29,4L29,32C29,32 29,36 25,36L11,36Z" style="fill:rgb(49,55,61);fill-rule:nonzero;"/>
+        <rect x="9" y="5" width="18" height="26" style="fill:rgb(85,172,238);"/>
+    </g>
+</svg>
