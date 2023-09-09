@@ -65,27 +65,37 @@ a img
 .logo img
 {
 	max-width: 100%;
-	max-height: 100%;
 	margin: auto;
 	display: block;
 }
 
 hr
 {
-	height: 1px;
-	border-width: 0;
-	color: #759dbd;
-	background-color: #759dbd;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #759dbd;
+    padding: 0;
+	margin: 0;
 }
 
 .nbhrup
 {
+	margin-bottom: 6px;
 	margin-top: 0;
 }
 
 .nbhrdn
 {
-	margin-bottom: 0;
+	margin-bottom: -1px;
+	margin-top: 7px;
+}
+
+.fthr
+{
+	border-top: 0;
+	border-bottom: 1px solid #759dbd;
+	margin-top: 6px;
 }
 
 .homelist
