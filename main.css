@@ -366,3 +366,28 @@ h1
 	float: left;
 	margin-right: 3%;
 }
+
+.coverphotos
+{
+	margin-bottom: 14px;
+	padding-bottom: 14px;
+	font-size: 0;
+}
+
+.coverphotos img
+{
+	margin: 0;
+	padding: 0;
+}
+
+.photoleft
+{
+	width: 50%;
+	float: left;
+}
+
+.photoright
+{
+	width: 50%;
+	float: right;
+}
