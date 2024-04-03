@@ -41,6 +41,21 @@ a:active
 	color: #224177;
 }
 
+a.currcat:link, a.currcat:visited
+{
+	color: white;
+}
+
+a.currcat:hover
+{
+	color: SteelBlue;
+}
+
+a.currcat:active
+{
+	color: #224177;
+}
+
 a img
 {
 	border: 0;
@@ -49,6 +64,7 @@ a img
 .header
 {
 	text-align: center;
+	color:#759dbd;
 }
 
 .logo
