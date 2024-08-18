@@ -37,7 +37,7 @@ https://matlaw-geek.github.io/kolekcje/ffex20.htm
 https://matlaw-geek.github.io/kolekcje/fffpjv300.htm
 https://matlaw-geek.github.io/kolekcje/fffpz35.htm
 https://matlaw-geek.github.io/kolekcje/hpcnc2400.htm
-https://matlaw-geek.github.io/kolekcje/hpcnc2400d.htm
+https://matlaw-geek.github.io/kolekcje/hp2400d.htm
 https://matlaw-geek.github.io/kolekcje/hpe840g8.htm
 https://matlaw-geek.github.io/kolekcje/htcms.htm
 https://matlaw-geek.github.io/kolekcje/inva40.htm
@@ -128,7 +128,7 @@ https://matlaw-geek.github.io/en/collections/ffex20.htm
 https://matlaw-geek.github.io/en/collections/fffpjv300.htm
 https://matlaw-geek.github.io/en/collections/fffpz35.htm
 https://matlaw-geek.github.io/en/collections/hpcnc2400.htm
-https://matlaw-geek.github.io/en/collections/hpcnc2400d.htm
+https://matlaw-geek.github.io/en/collections/hp2400d.htm
 https://matlaw-geek.github.io/en/collections/hpe840g8.htm
 https://matlaw-geek.github.io/en/collections/htcms.htm
 https://matlaw-geek.github.io/en/collections/inva40.htm
