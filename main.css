@@ -407,3 +407,13 @@ h1
 	width: 50%;
 	float: right;
 }
+
+.gone
+{
+	background-image: url('img/gone.svg');
+}
+
+.notdone
+{
+	background-image: url('img/grey_bg.png');
+}
