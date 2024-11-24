@@ -64,7 +64,7 @@ a img
 .header
 {
 	text-align: center;
-	color:#759dbd;
+	color:#759DBD;
 }
 
 .logo
@@ -90,7 +90,7 @@ hr
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #759dbd;
+    border-top: 1px solid #759DBD;
     padding: 0;
 	margin: 0;
 }
@@ -110,7 +110,7 @@ hr
 .fthr
 {
 	border-top: 0;
-	border-bottom: 1px solid #759dbd;
+	border-bottom: 1px solid #759DBD;
 	margin-top: 6px;
 }
 
@@ -223,13 +223,12 @@ h1
   
 .flex-container-coll > div
 {
-	background-color: #f1f1f1;
 	width: 213px;
 	margin: 5px;
 	color: #102E47;
 	text-align: left;
 	height: 70px;
-	border: 1px solid #759dbd;
+	border: 1px solid #759DBD;
 	align-items: center;
 }
 
@@ -244,7 +243,7 @@ h1
 	width: 70px;
 	height: 70px;
 	object-fit: cover;
-	border-right: 1px solid #759dbd;
+	border-right: 1px solid #759DBD;
 	margin-right: 9px;
 }
 
@@ -301,6 +300,22 @@ h1
 	color: #555555;
 }
 
+.owned
+{
+	background-color: #F1F1F1;
+}
+
+.notdone
+{
+	background-color: #C0C0C0;
+}
+
+.gone
+{
+	background-color: #EEE0E0;
+	background-image: url('img/gone.svg');
+}
+
 #galltitle
 {
 	margin-bottom: 15px;
@@ -310,8 +325,8 @@ h1
 {
 	margin-top: 10px;
 	margin-left: 1px;
-	border: 1px solid #759dbd;
-	background-color: #f1f1f1;
+	border: 1px solid #759DBD;
+	background-color: #F1F1F1;
 	color: #102E47;
 }
 	.gallery:hover
@@ -408,12 +423,27 @@ h1
 	float: right;
 }
 
-.gone
+.infobox
 {
-	background-image: url('img/gone.svg');
+	border: 1px solid #759DBD;
+	background-color: #F1F1F1;
+	color: #102E47;
+	margin-top: 14px;
 }
 
-.notdone
+.infobox img
 {
-	background-image: url('img/grey_bg.png');
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+	margin-right: 4px;
+	margin-left: 4px;
+	padding-bottom: 2px;
+}
+
+.infobox td
+{
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 1px;
 }
