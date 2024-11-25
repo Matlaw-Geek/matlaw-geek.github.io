@@ -398,6 +398,13 @@ h1
 	margin-right: 3%;
 }
 
+	.profilepic img
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
 .coverphotos
 {
 	margin-bottom: 14px;
@@ -405,19 +412,20 @@ h1
 	font-size: 0;
 }
 
-.coverphotos img
+	.coverphotos img
 {
 	margin: 0;
 	padding: 0;
+	width: 100%;
 }
 
-.photoleft
+	.photoleft
 {
 	width: 50%;
 	float: left;
 }
 
-.photoright
+	.photoright
 {
 	width: 50%;
 	float: right;
@@ -431,17 +439,17 @@ h1
 	margin-top: 14px;
 }
 
-.infobox img
+	.infobox img
 {
 	vertical-align: middle;
 	width: 16px;
 	height: 16px;
 	margin-right: 4px;
 	margin-left: 4px;
-	padding-bottom: 2px;
+	margin-bottom: 2px;
 }
 
-.infobox td
+	.infobox td
 {
 	padding-left: 0;
 	padding-right: 0;
