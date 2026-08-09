@@ -1,7 +1,6 @@
 html {
 	overflow-y: scroll
 }
-
 body {
 	font-family: helvetica,arial,sans-serif;
 	max-width: 900px;
@@ -13,165 +12,179 @@ body {
 	background-color: #102e47;
 	color: white
 }
-
 a {
 	text-decoration: none
 }
-
 a:link,a:visited {
 	color: #31c5f0
 }
-
-a.box-coll:hover,a.currcat:hover,a:hover {
+a.currcat,a.navcat {
+	margin: 0;
+	padding: 7px 4px
+}
+#goback,#gotop,#langsw,a.currcat,a.navcat {
+	display: inline-block;
+	max-width: fit-content
+}
+#langsw,h1 {
+	margin-bottom: 16px
+}
+.desc,.footer,.header {
+	text-align: center
+}
+.flag14,.flag18,.homelist img,.infobox img {
+	vertical-align: middle
+}
+a.box-coll:hover,a:hover {
 	color: #4682b4
 }
-
-a.box-coll:active,a.currcat:active,a:active {
+a.box-coll:active,a:active {
 	color: #224177
 }
-
-a.currcat:link,a.currcat:visited {
+a.currcat,a.currcat:link,a.currcat:visited {
 	color: white
 }
-
+a.currcat:hover {
+	background-color: white;
+	color: #102e47
+}
+#goback,#gotop,#langsw,a.currcat:active,a.navcat:hover {
+	background-color: #31c5f0;
+	color: #102e47
+}
+#goback:hover,#gotop:hover,#langsw:hover,a.navcat:active {
+	background-color: #4682b4
+}
+a.navcat {
+	color: #31c5f0
+}
+.logo img,hr {
+	display: block
+}
+a.navcat:active {
+	color: #102e47
+}
 a img,hr {
 	border: 0
 }
-
 .header {
-	text-align: center;
 	color: #759dbd
 }
-
 .logo {
-	margin: 18px auto;
+	margin: 18px auto 17px;
 	max-width: 650px;
 	width: 85%;
 	font-size: 0;
 	height: auto
 }
-
-.logo img {
-	max-width: 100%;
-	margin: auto;
-	display: block
+.nbhrdn,.nbhrup {
+	margin-bottom: 0
 }
-
-hr {
-	display: block;
-	height: 1px;
-	border-top: 1px solid #759dbd
-}
-
-.nbhrup {
-	margin-bottom: 6px;
+#langsw,.nbhrdn,.nbhrup {
 	margin-top: 0
 }
-
-.nbhrdn {
-	margin-bottom: -1px;
-	margin-top: 7px
+.logo img {
+	max-width: 100%;
+	margin: auto
 }
-
-.fthr {
+hr {
+	height: 1px
+}
+.nbhrup {
 	border-top: 0;
-	margin-top: 6px
+	border-bottom: 1px solid #759dbd
 }
-
+.nbhrdn {
+	border-top: 1px solid #759dbd;
+	border-bottom: 0
+}
+.fthr,.gallery img {
+	border-bottom: 1px solid #759dbd
+}
+.fthr {
+	border-top: 0
+}
 .homelist,.smalltitle {
 	font-size: 16px
 }
-
 .homelist td,.infobox td {
 	padding-left: 0;
 	padding-right: 0;
 	padding-bottom: 16px
 }
-
 .infobox td {
 	padding-bottom: 1px
 }
-
 #listindent {
 	margin-left: 8px
 }
-
 .homelist img {
-	vertical-align: middle;
 	width: 24px;
 	height: 24px;
 	margin-right: 8px;
 	margin-left: 0
 }
-
 .flag14 {
-	vertical-align: middle;
 	margin-bottom: 3px;
 	width: 19px;
 	height: 14px
 }
-
 .flag18 {
-	vertical-align: middle;
-	margin-bottom: 4px;
+	margin-top: 1px;
+	margin-bottom: 1px;
 	width: 25px;
 	height: 18px
 }
-
-.goback {
-	margin-top: 17px;
-	margin-bottom: 8px
+#goback {
+	padding: 3px 8px;
+	margin-bottom: 9px
 }
-
+#goback:active,#gotop:active,#langsw:active {
+	background-color: #224177;
+	color: white
+}
+#gotop {
+	padding: 3px 11px
+}
+#langsw {
+	padding: 3px 7px
+}
 .artibar {
 	float: left;
 	width: 65%
 }
-
 h1 {
 	font-size: 28px;
-	margin-top: 16px;
-	margin-bottom: 16px
+	margin-top: 16px
 }
-
 .arthdr,.artibar h1,.coverphotos img,.gallery img,.profilepic img,hr {
 	padding: 0;
 	margin: 0
 }
-
 .gallbar,.gallbar-inline {
 	float: right;
 	width: 30%
 }
-
 .gallbar-inline {
 	margin-left: 3%;
 	margin-bottom: 12px
 }
-
-.fthr,.gallery img {
-	border-bottom: 1px solid #759dbd
-}
-
 .footer {
+	padding-top: 32px;
 	width: 100%;
-	float: left;
-	text-align: center
+	float: left
 }
-
 .imgbadge {
 	border: 0;
 	width: 88px;
 	height: 31px
 }
-
 .flex-container-coll {
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
 	justify-content: center
 }
-
 .flex-container-coll>div {
 	width: 213px;
 	margin: 5px;
@@ -179,7 +192,6 @@ h1 {
 	height: 70px;
 	align-items: center
 }
-
 .img-coll {
 	float: left;
 	width: 70px;
@@ -188,124 +200,97 @@ h1 {
 	border-right: 1px solid #759dbd;
 	margin-right: 9px
 }
-
 .box-coll-text {
 	padding-top: 6px
 }
-
 .box-coll-end,.tw {
 	clear: both
 }
-
 .box-coll:link,.box-coll:visited {
 	color: #102e47
 }
-
 .box-coll-in,.box-coll-in:active,.box-coll-in:hover,.box-coll-in:link {
 	color: #555
 }
-
 .gallery,.infobox,.owned {
 	background-color: #f1f1f1;
 	color: #102e47
 }
-
 .gallery,.gone,.infobox,.notdone,.owned {
 	border: 1px solid #759dbd
 }
-
 .gallery:hover,.gone:hover,.owned:hover {
 	border: 1px solid #31c5f0
 }
-
 .notdone {
 	background-color: silver
 }
-
 .gone {
 	background-color: #eee0e0;
 	background-image: url(img/gone.svg)
 }
-
 #galltitle {
 	margin-bottom: 15px
 }
-
 .gallery {
 	margin-top: 10px;
 	margin-left: 1px
 }
-
 .desc {
 	padding-top: 3px;
-	padding-bottom: 7px;
-	text-align: center
+	padding-bottom: 7px
 }
-
 .microtitle,.smalltitle {
 	font-weight: bold;
 	margin-top: 16px;
 	margin-bottom: 8px
 }
-
 .specstable {
 	display: table;
 	width: auto;
 	border-spacing: 5px
 }
-
 .tw {
 	display: table-row;
 	width: auto
 }
-
 .tk1,.tk2 {
 	display: table-cell;
 	vertical-align: center
 }
-
 .tk1 {
 	font-weight: bold;
 	text-align: right
 }
-
 .tk2 {
 	text-align: left
 }
-
 .profilepic {
 	width: 25%;
 	float: left;
 	margin-right: 3%
 }
-
 .coverphotos img,.gallery img,.profilepic img {
 	width: 100%;
 	height: auto
 }
-
 .coverphotos {
 	margin-bottom: 14px;
 	padding-bottom: 14px;
 	font-size: 0
 }
-
 .photoleft {
 	width: 50%;
 	float: left
 }
-
 .photoright {
 	width: 50%;
 	float: right
 }
-
 .infobox {
 	margin-top: 14px
 }
-
 .infobox img {
-	vertical-align: middle;
 	width: 16px;
 	height: 16px;
 	margin-right: 4px;
